@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=League+Spartan:wght@600&display=swap');
+
+.container {
+    position: relative;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+
+}
+
+.head {
+    font-size: 2.8rem;
+    color: #020024;
+    font-family: 'League Spartan', sans-serif;
+    display: inline-block;
+    position: relative;
+    margin-left: 1rem;
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    /* margin-top: 10rem; */
+}
+
+.head:hover {
+    transform: scale(1.1);
+
+}
+
+.dotSpan {
+    font-size: 3.5rem;
+    color: rgb(255, 136, 0);
+    position: relative;
+    left: .1rem;
+    display: inline-block;
+    /* height: 3rem; */
+}
+
+.heading__img {
+    height: 100%;
+    width: 3.5rem;
+    margin-right: .4rem;
+    position: relative;
+    top: .8rem;
+    /* animation: rotation infinite ease none; */
+    /* animation: rotatio0s infinite;
+     */
+    animation: rotation 3s linear infinite;
+
+}
+
+.heading__img:hover {
+    transform: rotate(90deg);
+}
+
+.githubIcon {
+    display: inline-block;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    position: relative;
+    right: 1.5rem;
+
+}
+
+.githubIcon:hover {
+    transform: scale(1.2);
+}
+
+.githubImg {
+    height: 2.5rem;
+    width: 2.5rem;
+    /* margin-right: 1rem; */
+    border-radius: 10rem;
+    background-color: white;
+}
+
+@keyframes rotation {
+    0% {
+
+        transform: rotate(0deg);
+        /* transform: scale(1); */
+
+    }
+
+    100% {
+
+        transform: rotate(360deg);
+        /* transform: scale(1.2); */
+
+    }
+
+}
