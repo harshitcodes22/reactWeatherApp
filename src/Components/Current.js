@@ -14,7 +14,7 @@ function Current({ location }) {
     function () {
       async function getWeatherData() {
         const res = await fetch(
-          `http://api.weatherapi.com/v1/current.json?key=798a8c19b97f4fc38e2142450232007&q=${location}&aqi=yes`
+          `https://api.weatherapi.com/v1/current.json?key=798a8c19b97f4fc38e2142450232007&q=${location}&aqi=yes`
         );
         console.log(res);
         const data = await res.json();
